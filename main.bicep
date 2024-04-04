@@ -89,6 +89,7 @@ module vnet 'br/public:network/virtual-network:1.1.3' = {
       }
     ]
     tags: Tags
+    newOrExistingNSG: 'new'
   }
 }
 
