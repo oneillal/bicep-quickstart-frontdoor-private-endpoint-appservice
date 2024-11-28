@@ -12,7 +12,7 @@ param name string
   'Standard'
 ])
 @description('Optional. Type of static site to deploy.')
-param sku string = 'Free'
+param sku string = 'Standard'
 
 @description('Optional. False if config file is locked for this static web app; otherwise, true.')
 param allowConfigFileUpdates bool = true
