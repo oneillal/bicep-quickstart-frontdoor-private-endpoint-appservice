@@ -9,7 +9,7 @@ metadata description = 'Azure Front Door Premium + WAF with Private Link to Azur
 param location string = resourceGroup().location
 
 @description('Web App resource group name.')
-param rg_web_workload string = 'rg-oneillal'
+param rg_web_workload string = 'rg-oneillal-poc'
 
 @description('Workload / corp / core landing zone subid.')
 param workloadsSubId string = 'd1952367-cf47-4fd4-9ff1-c007f61e106d'
