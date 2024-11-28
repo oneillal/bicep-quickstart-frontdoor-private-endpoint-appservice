@@ -314,7 +314,7 @@
     },
     "sku": {
       "type": "string",
-      "defaultValue": "Free",
+      "defaultValue": "Standard",
       "allowedValues": [
         "Free",
         "Standard"
