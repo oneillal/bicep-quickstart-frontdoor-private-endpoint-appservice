@@ -5,7 +5,7 @@ metadata description = 'Azure Front Door Premium + WAF with Private Link to Azur
 
 // Change the below params to suit your deployment needs
 // Go to the modules to amend IP schema, app plan sku/app code stack etc.
-@description('Azure UK South region.')
+@description('Azure Japan East')
 param location string = resourceGroup().location
 
 @description('Web App resource group name.')
