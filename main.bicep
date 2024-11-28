@@ -12,7 +12,7 @@ param location string = resourceGroup().location
 param rg_web_workload string = 'rg-oneillal'
 
 @description('Workload / corp / core landing zone subid.')
-param workloadsSubId string = 'f520850b-ae2c-4099-b977-b7842533a407'
+param workloadsSubId string = 'd1952367-cf47-4fd4-9ff1-c007f61e106d'
 
 @description('Log analytics workspace name.')
 param alaName string = 'ala-workspace-fdpoc'
