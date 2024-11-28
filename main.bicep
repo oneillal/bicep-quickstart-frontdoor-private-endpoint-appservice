@@ -9,16 +9,16 @@ metadata description = 'Azure Front Door Premium + WAF with Private Link to Azur
 param location string = resourceGroup().location
 
 @description('Web App resource group name.')
-param rg_web_workload string = 'rg-webapp-prod'
+param rg_web_workload string = 'rg-oneillal'
 
 @description('Workload / corp / core landing zone subid.')
-param workloadsSubId string = '00000000-0000-0000-0000-000000000000'
+param workloadsSubId string = 'f520850b-ae2c-4099-b977-b7842533a407'
 
 @description('Log analytics workspace name.')
-param alaName string = 'ala-workspace-name'
+param alaName string = 'ala-workspace-fdpoc'
 
 @description('App service application insights name.')
-param appInsightsName string = 'appinsights-name'
+param appInsightsName string = 'appinsights-fdpoc'
 
 @description('Azure app service name.')
 param webAppName string = 'webapp-001'
