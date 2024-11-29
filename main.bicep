@@ -21,7 +21,7 @@ param alaName string = 'ala-workspace-fdpoc'
 param appInsightsName string = 'appinsights-fdpoc'
 
 @description('Azure app service name.')
-param webAppName string = 'webapp-001'
+param webAppName string = 'webapp-001-fdpoc1'
 
 @description('Time date now for tag creation and unique names.')
 param timeNow string = utcNow('u')
